@@ -7,6 +7,10 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 
+/**
+ * @author Pavan kalyan
+ */
+
 			//Create separate class for each page
 public class HomePage 
 {
