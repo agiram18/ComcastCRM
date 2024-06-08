@@ -53,6 +53,7 @@ public class HomePage
 		Actions act = new Actions(driver);
 		act.moveToElement(adminimg).perform();
 		signoutBtn.click();
+		System.out.println();
 	}
 	
 

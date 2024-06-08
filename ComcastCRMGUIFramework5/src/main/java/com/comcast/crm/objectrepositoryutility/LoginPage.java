@@ -19,7 +19,7 @@ public class LoginPage extends WebDriverUtility
 		PageFactory.initElements(driver, this);
 	}
 	/**
-	 * @author pavan kalyan
+	 * @author Akshay
 	 */
 	@FindBy(xpath = "//input[@name='user_name']")
 	private WebElement uname;
