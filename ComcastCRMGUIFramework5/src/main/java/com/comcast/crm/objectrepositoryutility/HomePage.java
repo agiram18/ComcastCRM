@@ -10,6 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 			//Create separate class for each page
 public class HomePage 
 {
+
 	WebDriver driver;    //object initialization
 	public HomePage(WebDriver driver)
 	{
@@ -35,7 +36,10 @@ public class HomePage
 	{
 		return orglink;
 	}
-
+	/**
+	 * @author DELL
+	 * @return
+	 */
 	public WebElement getAdminimg() {
 		return adminimg;
 	}
