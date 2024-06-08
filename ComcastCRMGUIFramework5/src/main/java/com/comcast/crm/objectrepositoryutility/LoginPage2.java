@@ -10,10 +10,10 @@ import com.comcast.crm.generic.webdriverutility.WebDriverUtility;
  * git check2
  * 
  * **/
-public class LoginPage extends WebDriverUtility
+public class LoginPage2 extends WebDriverUtility
 {
 	WebDriver driver;
-	public LoginPage(WebDriver driver)
+	public LoginPage2(WebDriver driver)
 	{
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
