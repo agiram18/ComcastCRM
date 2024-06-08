@@ -18,7 +18,9 @@ public class LoginPage extends WebDriverUtility
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
-	
+	/**
+	 * @author pavan kalyan
+	 */
 	@FindBy(xpath = "//input[@name='user_name']")
 	private WebElement uname;
 	
