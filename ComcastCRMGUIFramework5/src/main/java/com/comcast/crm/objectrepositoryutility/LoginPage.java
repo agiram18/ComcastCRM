@@ -6,10 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.comcast.crm.generic.webdriverutility.WebDriverUtility;
-/** 
- * git check2
- * 
- * **/
+
 public class LoginPage extends WebDriverUtility
 {
 	WebDriver driver;
@@ -18,9 +15,7 @@ public class LoginPage extends WebDriverUtility
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
-	/**
-	 * @author Akshay
-	 */
+	
 	@FindBy(xpath = "//input[@name='user_name']")
 	private WebElement uname;
 	
