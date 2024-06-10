@@ -9,4 +9,11 @@ public class CaptureTimeStamp
 		System.out.println(time);
 	}
 
+	
+	
+	public void m1()
+{
+System.out.println("forke done");		
 }
+}
+
